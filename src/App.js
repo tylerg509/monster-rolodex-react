@@ -23,7 +23,7 @@ class  App extends Component {
   handleChange = e =>{
     this.setState({searchField: e.target.value})
     //could also write the following in constructor rather than the arrow function
-    //// this.handleChange = this.handleChange.bind(this)
+    //// this.handleChange = this.handleChange.bind(this) 
   }
 
 
