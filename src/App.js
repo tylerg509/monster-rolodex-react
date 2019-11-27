@@ -26,12 +26,7 @@ render(){
         type="search" 
         placeholder="Search Monsters" 
         onChange={e=> {
-          this.setState({searchField:e.target.value}
-          ) 
-/*           this.setState({searchField:e.target.value}, ()=>
-          console.log(this.state) //have to console log within this.setstate due to the async nature of set state otherwise would be one character behind
-          ) */
-        }}>
+          this.setState({searchField:e.target.value} ) }}>
       </input>
       <CardList monsters={this.state.monsters }>
 
